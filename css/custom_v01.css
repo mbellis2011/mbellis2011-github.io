@@ -1,0 +1,129 @@
+
+
+body {
+  padding-top: 3rem;
+  background-color: #000000;
+  font-family: "Libre Bodoni",serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.starry {
+	background-color:black;
+	background-image:
+	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 0px),
+	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 0px),
+	radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 0px),
+	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 0px);
+	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
+
+.caine-logo {
+	height: auto;
+	width: 40%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bottles-pic {
+	height: auto;
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tagline-text {
+	text-align: center;
+    margin: 0 auto;
+	color: #ffffff;
+	font-size: 3vw;
+}
+
+.desc-text {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding: 10px 0px 10px 0px;	
+	color: #ffffff;
+	font-size: 1.5vw;
+}
+
+.buy-button {
+	color: #ffffff;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    font-size: 3vw;
+    border-radius: 2px;
+    padding: 8px;
+    font-weight: 400;
+    display: block;
+	transition: all 0.5s ease 0s;
+}
+
+#button-buy:hover {
+	color: #ffffff;
+	background-color: #444444;
+	text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .buy-button {
+	width: 45%;
+  }
+  
+  #button-buy:hover {
+	color: #6b4f23;
+	background-color: #ffffff;
+	text-decoration: none;
+  }
+}
+
+.header-text {
+	text-align: center;
+    margin: 0 auto;
+	color: #ffffff;
+}
+
+.story-text {
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.8;
+    padding: 10px 0px 10px 0px;	
+	color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .story-text {
+	  width: 80%;
+  }
+}
+
+.small-nav {
+	padding: .3rem 1rem;
+}
+
+.spacer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.center-div-text {
+	text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
