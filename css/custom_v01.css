@@ -61,6 +61,7 @@ body {
     font-weight: 400;
     display: block;
 	transition: all 0.5s ease 0s;
+	text-decoration-line: none;
 }
 
 #button-buy:hover {
@@ -75,8 +76,8 @@ body {
   }
   
   #button-buy:hover {
-	color: #6b4f23;
-	background-color: #ffffff;
+	color: #ffffff;
+	background-color: #444444;
 	text-decoration: none;
   }
 }
