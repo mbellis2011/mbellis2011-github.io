@@ -25,6 +25,12 @@ body {
 	margin-right: auto;
 }
 
+@media (max-width: 768px) {
+	.caine-logo {
+		width: 80%;
+	}
+}
+
 .bottles-pic {
 	height: auto;
 	width: 50%;
@@ -33,11 +39,24 @@ body {
 	margin-right: auto;
 }
 
+@media (max-width: 768px) {
+	.bottles-pic {
+		width: 100%;
+	}
+}
+
 .tagline-text {
 	text-align: center;
     margin: 0 auto;
 	color: #ffffff;
-	font-size: 3vw;
+	font-size: 3rem;
+}
+
+@media (max-width: 768px) {
+	.tagline-text {
+		width: 80%;
+		font-size: 2rem;
+	}
 }
 
 .desc-text {
@@ -47,7 +66,14 @@ body {
     line-height: 1.8;
     padding: 10px 0px 10px 0px;	
 	color: #ffffff;
-	font-size: 1.5vw;
+	font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+	.desc-text  {
+		width: 80%;
+		font-size: 1rem;
+	}
 }
 
 .buy-button {
@@ -55,7 +81,7 @@ body {
     text-align: center;
     position: relative;
     margin: 0 auto;
-    font-size: 3vw;
+    font-size: 5rem;
     border-radius: 2px;
     padding: 8px;
     font-weight: 400;
@@ -72,7 +98,8 @@ body {
 
 @media (max-width: 768px) {
   .buy-button {
-	width: 45%;
+	width: 85%;
+	font-size: 2.5rem;
   }
   
   #button-buy:hover {
@@ -86,6 +113,14 @@ body {
 	text-align: center;
     margin: 0 auto;
 	color: #ffffff;
+	font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .header-text {
+	  width: 80%;
+	  font-size: 2rem;
+  }
 }
 
 .story-text {
@@ -95,11 +130,13 @@ body {
     line-height: 1.8;
     padding: 10px 0px 10px 0px;	
 	color: #ffffff;
+	font-size: 2rem;
 }
 
 @media (max-width: 768px) {
   .story-text {
 	  width: 80%;
+	  font-size: 1rem;
   }
 }
 
