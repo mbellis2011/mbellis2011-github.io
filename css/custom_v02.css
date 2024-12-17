@@ -88,6 +88,7 @@ body {
     display: block;
 	transition: all 0.5s ease 0s;
 	text-decoration-line: none;
+	background-color: #ffffff1a;
 }
 
 #button-buy:hover {
@@ -164,4 +165,37 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+
+.icon-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-pic {
+  width: 15%;
+  margin-right: 25px;
+}
+
+@media (max-width: 768px) {
+	.icon-pic  {
+      width: 30%;
+	}
+}
+
+.icon-text {
+  width: 45%;
+  text-align: center;
+  line-height: 1.8;
+  padding: 10px 0px 10px 0px;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+	.icon-text  {
+		font-size: 1rem;
+	}
 }
